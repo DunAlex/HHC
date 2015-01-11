@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc5e5b2e-ab26-4574-bc6e-4b88ea37b060" name="Default" comment="bi" />
+    <list default="true" id="fc5e5b2e-ab26-4574-bc6e-4b88ea37b060" name="Default" comment="bi">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hhccore/User/User_Handler.php" afterPath="$PROJECT_DIR$/hhccore/User/User_Handler.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/authenticate.php" afterPath="$PROJECT_DIR$/api/application/controllers/authenticate.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <list id="d41c6e17-6400-4d89-92ce-24c85eace4e6" name="local_only" comment="" />
     <ignored path="HealthyHomeCompany.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,51 +37,108 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="signout.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.163142" vertical-offset="0" max-vertical-offset="662">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+              <caret line="4" column="124" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="124" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
+      <file leaf-file-name="page_signin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_signin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="612">
+              <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="authenticate.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.888889" vertical-offset="1623" max-vertical-offset="3114">
+              <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page_lockme.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="378">
+              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
               <folding>
-                <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-                <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-                <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-                <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-                <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-                <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-                <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-                <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-                <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-                <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-                <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-                <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-                <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-                <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-                <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-                <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Vagrantfile">
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
-          </provider>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-              <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+            <state vertical-scroll-proportion="-60.074074" vertical-offset="3130" max-vertical-offset="5076">
+              <caret line="264" column="73" selection-start-line="264" selection-start-column="73" selection-end-line="264" selection-end-column="73" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User_Handler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.333334" vertical-offset="1728" max-vertical-offset="2610">
+              <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+              <folding>
+                <marker date="1420983395304" expanded="true" signature="844:1150" placeholder="SELECT Membe..Members..." />
+                <marker date="1420983395304" expanded="true" signature="1675:2004" placeholder="SELECT Membe..Members..." />
+                <marker date="1420983395304" expanded="true" signature="3189:3524" placeholder="SELECT Membe..Members..." />
+                <marker date="1420983395304" expanded="true" signature="3823:4228" placeholder="SELECT Membe..Members..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-237.96666" vertical-offset="133" max-vertical-offset="11448">
+              <caret line="404" column="21" selection-start-line="404" selection-start-column="21" selection-end-line="404" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="unlock.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3576159" vertical-offset="0" max-vertical-offset="906">
+              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.lazyload.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.lazyload.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="534" max-vertical-offset="3006">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -86,7 +154,7 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/membertek-api" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/healthyhomecompany-ee" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$/api" value="master" />
@@ -114,7 +182,6 @@
         <option value="$PROJECT_DIR$/hhccore/Mail/Mail_Recipients.php" />
         <option value="$PROJECT_DIR$/hhccore/Libraries/Mailgun_Mailer/vendor/guzzle/guzzle/src/Guzzle/Http/Curl/CurlMulti.php" />
         <option value="$PROJECT_DIR$/hhccore/Logger/Logger_Request.php" />
-        <option value="$PROJECT_DIR$/hhccore/User/User_Handler.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-web/order-document.php" />
         <option value="$PROJECT_DIR$/hhccore/Order/Order_Object.php" />
         <option value="$PROJECT_DIR$/hhccore/Security/Security_Token.php" />
@@ -139,6 +206,14 @@
         <option value="$PROJECT_DIR$/cloner.sh" />
         <option value="$PROJECT_DIR$/membertek-api/database.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js" />
+        <option value="$PROJECT_DIR$/hhccore/User/User_Handler.php" />
+        <option value="$PROJECT_DIR$/api/application/controllers/authenticate.php" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js" />
       </list>
     </option>
   </component>
@@ -207,7 +282,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -226,8 +300,301 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hhccore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hhccore" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ajax" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -381,15 +748,15 @@
       <BehatRunner />
       <method />
     </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="false" name="HHC" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="beta.healthyhomecompany.com" session_id="PHPSTORM">
@@ -729,7 +1096,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1055" extended-state="7" />
+    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6342246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -739,21 +1106,21 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276414" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37337664" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26096258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33137673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6342246" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32513368" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37326202" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26096258" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -975,8 +1342,13 @@
           <line>44</line>
           <option name="timeStamp" value="480" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/hhccore/Ajax/Ajax_Handler.php</url>
+          <line>15</line>
+          <option name="timeStamp" value="489" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="486" />
+      <option name="time" value="491" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="ajax.php">
@@ -985,27 +1357,133 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="216">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1512" max-vertical-offset="2826">
+          <caret line="122" column="0" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="692" max-vertical-offset="2232">
+          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding>
+            <marker date="1420983395304" expanded="true" signature="844:1150" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="1675:2004" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="3189:3524" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="3823:4228" placeholder="SELECT Membe..Members..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/DB/DB_PDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4922" max-vertical-offset="7398">
+          <caret line="283" column="0" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
+          <folding>
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT :_fie..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table WHERE..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table WHERE..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="11268">
+          <caret line="43" column="72" selection-start-line="43" selection-start-column="32" selection-end-line="43" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/Ajax/Ajax_Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2672" max-vertical-offset="10620">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <marker date="1420922025140" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420922025140" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
           </folding>
         </state>
       </provider>
@@ -1026,22 +1504,22 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
           </folding>
         </state>
       </provider>
@@ -1062,22 +1540,22 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
           </folding>
         </state>
       </provider>
@@ -1098,22 +1576,22 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
           </folding>
         </state>
       </provider>
@@ -1198,6 +1676,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloner.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4320">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1209,43 +1727,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
+    <entry file="file://$PROJECT_DIR$/hhccore/DB/DB_PDO.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4922" max-vertical-offset="7398">
+          <caret line="283" column="0" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
           <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT :_fie..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table WHERE..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table WHERE..." />
+            <marker date="1420922025140" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
+    <entry file="file://$PROJECT_DIR$/hhccore/Ajax/Ajax_Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="2672" max-vertical-offset="10620">
+          <caret line="149" column="0" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
+          <folding>
+            <marker date="1420922025140" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1420922025140" expanded="false" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.163142" vertical-offset="0" max-vertical-offset="662">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="216">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/app.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1638">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/ui-load.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1764">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="906">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="648">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.074074" vertical-offset="3130" max-vertical-offset="5076">
+          <caret line="264" column="73" selection-start-line="264" selection-start-column="73" selection-end-line="264" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.333334" vertical-offset="1728" max-vertical-offset="2610">
+          <caret line="134" column="5" selection-start-line="134" selection-start-column="5" selection-end-line="134" selection-end-column="5" />
+          <folding>
+            <marker date="1420983395304" expanded="true" signature="844:1150" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="1675:2004" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="3189:3524" placeholder="SELECT Membe..Members..." />
+            <marker date="1420983395304" expanded="true" signature="3823:4228" placeholder="SELECT Membe..Members..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-237.96666" vertical-offset="133" max-vertical-offset="11448">
+          <caret line="404" column="21" selection-start-line="404" selection-start-column="21" selection-end-line="404" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.888889" vertical-offset="1623" max-vertical-offset="3114">
+          <caret line="105" column="36" selection-start-line="105" selection-start-column="36" selection-end-line="105" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="540">
+          <caret line="4" column="124" selection-start-line="4" selection-start-column="80" selection-end-line="4" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_signin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="12" column="93" selection-start-line="12" selection-start-column="93" selection-end-line="12" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="378">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3576159" vertical-offset="0" max-vertical-offset="906">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding />
         </state>
       </provider>
