@@ -26,16 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="cloner.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloner.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
@@ -739,7 +729,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
+    <frame x="-1" y="0" width="1922" height="1055" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6342246" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -995,10 +985,38 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
+    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
+            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
+            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
+            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
+            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
+            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
+            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
+            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
+            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
+            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
+          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -1039,14 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="342">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
@@ -1083,14 +1093,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
@@ -1123,58 +1125,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
           <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1420899491692" expanded="true" signature="4233:4268" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="4697:4726" placeholder="UPDATE :_Tab..." />
-            <marker date="1420899491692" expanded="true" signature="5253:5281" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1420899491692" expanded="true" signature="5649:5672" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="6541:6566" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="7090:7168" placeholder="SELECT COLUM..columns..." />
-            <marker date="1420899491692" expanded="true" signature="7765:7803" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="8300:8334" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1420899491692" expanded="true" signature="9915:9959" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="11002:11151" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1420899491692" expanded="true" signature="11677:11760" placeholder="DELETE FROM ..." />
-            <marker date="1420899491692" expanded="true" signature="12743:12774" placeholder="SELECT :_Fie..." />
-            <marker date="1420899491692" expanded="true" signature="13284:13325" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="13895:13936" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1420899491692" expanded="true" signature="14079:14129" placeholder="INSERT INTO ..." />
-            <marker date="1420899491692" expanded="true" signature="14258:14277" placeholder="UPDATE :_tab..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloner.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1286,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cloner.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="342">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
