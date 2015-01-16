@@ -6,4 +6,4 @@ api
 membertek-api
 .vagrant
 .directory
-.idea
+.idea/*
