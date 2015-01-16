@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc5e5b2e-ab26-4574-bc6e-4b88ea37b060" name="Default" comment="#48 added MemberHandler service, bugfixing">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/authenticate.php" afterPath="$PROJECT_DIR$/api/application/controllers/authenticate.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js" />
+    <list default="true" id="fc5e5b2e-ab26-4574-bc6e-4b88ea37b060" name="Default" comment="#48 MemberHandler tests, ng-idle implementation">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d41c6e17-6400-4d89-92ce-24c85eace4e6" name="local_only" comment="">
@@ -38,21 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="authenticate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
+      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-122.666664" vertical-offset="0" max-vertical-offset="4320">
-              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lock.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="10908">
+              <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -62,52 +45,17 @@
         <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User_Handler.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
+      <file leaf-file-name="page_404.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_404.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.3703704" vertical-offset="314" max-vertical-offset="3204">
-              <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-              <folding>
-                <marker date="1421150609722" expanded="true" signature="1878:2184" placeholder="SELECT Membe..Members..." />
-                <marker date="1421150609722" expanded="true" signature="2911:3240" placeholder="SELECT Membe..Members..." />
-                <marker date="1421150609722" expanded="true" signature="4929:5264" placeholder="SELECT Membe..Members..." />
-                <marker date="1421150609722" expanded="true" signature="5654:6059" placeholder="SELECT Membe..Members..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.3566177" vertical-offset="0" max-vertical-offset="10584">
-              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="member-handler.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="41.142857" vertical-offset="1728" max-vertical-offset="2340">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signup.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+            <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="486">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -116,28 +64,48 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.37037" vertical-offset="116" max-vertical-offset="1602">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state vertical-scroll-proportion="-17.333334" vertical-offset="324" max-vertical-offset="1638">
+              <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="member-handler.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="2376">
+              <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
-              <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state vertical-scroll-proportion="1.3489933" vertical-offset="0" max-vertical-offset="1746">
+              <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signin.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js">
+      <file leaf-file-name="unlock.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -168,9 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hhccore/Mail/Mail_Handler.php" />
-        <option value="$PROJECT_DIR$/hhccore/User/User_Authentication.php" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/ajax/ajax.php" />
         <option value="$PROJECT_DIR$/hhccore/Log/Log_Request.php" />
         <option value="$PROJECT_DIR$/hhccore/HH/HH_Controller.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/public/.gitignore" />
@@ -201,24 +166,27 @@
         <option value="$PROJECT_DIR$/cloner.sh" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html" />
         <option value="$PROJECT_DIR$/membertek-api/database.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html" />
         <option value="$PROJECT_DIR$/hhccore/User/User_Handler.php" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/main.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/MemberProvider.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/MemberHandler.js" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/app.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js" />
         <option value="$PROJECT_DIR$/api/application/controllers/authenticate.php" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/app.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/test.html" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/permissions.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_404.html" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js" />
       </list>
     </option>
   </component>
@@ -250,8 +218,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="1918" />
-    <option name="height" value="1045" />
+    <option name="x" value="-2" />
+    <option name="y" value="-3" />
+    <option name="width" value="1924" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -276,7 +246,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -305,21 +274,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="setup" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HealthyHomeCompany" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="membertek-api" />
+              <option name="myItemId" value="healthyhomecompany-ee" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,6 +289,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="system" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -374,6 +333,84 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ng-idle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -447,90 +484,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="filters" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HealthyHomeCompany" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthyhomecompany-ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myaccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HealthyHomeCompany" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthyhomecompany-ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myaccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HealthyHomeCompany" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="healthyhomecompany-ee" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myaccount" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -570,11 +530,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/angular-permission" />
       <recent name="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/ng-idle" />
       <recent name="J:\work\HealthyHomeCompany" />
       <recent name="$PROJECT_DIR$/hhccore/Mail" />
       <recent name="$PROJECT_DIR$/hhccore" />
-      <recent name="$PROJECT_DIR$/hhccore/Mail/content" />
     </key>
   </component>
   <component name="RestClientSettings">
@@ -1000,15 +960,15 @@
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="a0e602ea-7972-44e9-9dd6-af6f021628e3" server_name="HHC">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
       <tasks />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="a0e602ea-7972-44e9-9dd6-af6f021628e3" server_name="HHC">
       <method />
     </configuration>
     <configuration default="false" name="HHC" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug" server_name="HHC" session_id="PHPSTORM">
@@ -1029,24 +989,6 @@
       <created>1417185951366</created>
       <option name="number" value="Default" />
       <updated>1417185951366</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Mail_Handler fix &#10;Mail_SMTP class added #21">
-      <created>1418139607147</created>
-      <option name="number" value="00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1418139607147</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Mail_Handler fix &#10;Mail_SMTP class added #21">
-      <created>1418226655129</created>
-      <option name="number" value="00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1418226655129</updated>
-    </task>
-    <task id="LOCAL-00026" summary="#32">
-      <created>1418226816428</created>
-      <option name="number" value="00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1418226816428</updated>
     </task>
     <task id="LOCAL-00027" summary="#32 - tested">
       <created>1418310866041</created>
@@ -1324,7 +1266,25 @@
       <option name="project" value="LOCAL" />
       <updated>1421241785633</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="#48 MemberHandler tests, ng-idle implementation">
+      <created>1421338045690</created>
+      <option name="number" value="00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1421338045690</updated>
+    </task>
+    <task id="LOCAL-00074" summary="git ignore">
+      <created>1421338127594</created>
+      <option name="number" value="00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1421338127594</updated>
+    </task>
+    <task id="LOCAL-00075" summary="#48 User roles system added">
+      <created>1421423087763</created>
+      <option name="number" value="00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1421423087764</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1348,31 +1308,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1918" height="1045" extended-state="4" />
+    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.633833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45833334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.45640475" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36378205" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37136707" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2583423" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37273696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6342246" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32470334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655245" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37216827" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25641027" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1395,9 +1355,6 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="#32 - Mailgun class  fix" />
-    <MESSAGE value="#32 - Mail class  fix" />
-    <MESSAGE value="#41 User_Auth login method added" />
     <MESSAGE value="#41 login method return bool now" />
     <MESSAGE value="#41 all methods are non-static now" />
     <MESSAGE value="#41 added some comments to code" />
@@ -1420,7 +1377,10 @@
     <MESSAGE value="#48 dashboard auth work" />
     <MESSAGE value="#48 added angular-idle" />
     <MESSAGE value="#48 added MemberHandler service, bugfixing" />
-    <option name="LAST_COMMIT_MESSAGE" value="#48 added MemberHandler service, bugfixing" />
+    <MESSAGE value="#48 MemberHandler tests, ng-idle implementation" />
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="#48 User roles system added" />
+    <option name="LAST_COMMIT_MESSAGE" value="#48 User roles system added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -1622,96 +1582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="7632">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="504" max-vertical-offset="2304">
-          <caret line="28" column="72" selection-start-line="28" selection-start-column="72" selection-end-line="28" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vagrantfile">
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -1813,13 +1683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="234">
-          <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/system/expressionengine/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="3204">
@@ -1879,21 +1742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.min.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="546">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/ng-idle/angular-idle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.45089287" vertical-offset="3950" max-vertical-offset="4878">
-          <caret line="197" column="8" selection-start-line="197" selection-start-column="8" selection-end-line="197" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/ngstorage/ngStorage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.703125" vertical-offset="0" max-vertical-offset="1962">
@@ -1908,26 +1756,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/app.js">
+    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="414">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.5385827" vertical-offset="198" max-vertical-offset="7722">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/directives/ui-focus.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.87009066" vertical-offset="0" max-vertical-offset="774">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding />
+        <state vertical-scroll-proportion="0.027190333" vertical-offset="0" max-vertical-offset="662">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/filters/fromNow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.lazyload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006">
+          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="3204">
+          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+          <folding>
+            <marker date="1421150609722" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
+            <marker date="1421150609722" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
+            <marker date="1421150609722" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
+            <marker date="1421150609722" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3312" max-vertical-offset="4320">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30125523" vertical-offset="0" max-vertical-offset="478">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1940,67 +1843,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/membertek-api/database.php">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/angular-permission/angular-permission.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5385827" vertical-offset="198" max-vertical-offset="7722">
-          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
-          <folding>
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_Tab..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table LIMIT..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..columns..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COUNT.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName ORDER..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._TableName WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT COLUM..COLUMNS..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT :_Fie..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._Table WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="SELECT * FRO.._table_ WHERE..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1421052213010" expanded="true" signature="-1:-1" placeholder="UPDATE :_tab..." />
-          </folding>
+        <state vertical-scroll-proportion="-4.954683" vertical-offset="3280" max-vertical-offset="3942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/directives/ui-focus.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/table_uigrid.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.027190333" vertical-offset="0" max-vertical-offset="662">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/filters/fromNow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="909">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.lazyload.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/system/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3006">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
+        <state vertical-scroll-proportion="-2.9976985" vertical-offset="2605" max-vertical-offset="3474">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.min.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.37037" vertical-offset="116" max-vertical-offset="1602">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state vertical-scroll-proportion="-17.333334" vertical-offset="324" max-vertical-offset="1638">
+          <caret line="44" column="77" selection-start-line="44" selection-start-column="77" selection-end-line="44" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signin.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.35643566" vertical-offset="0" max-vertical-offset="909">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_404.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="486">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -2008,68 +1901,63 @@
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/lock.js">
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/vendor/angular/ng-idle/angular-idle.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/signup.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hhccore/User/User_Handler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.3703704" vertical-offset="314" max-vertical-offset="3204">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-          <folding>
-            <marker date="1421150609722" expanded="true" signature="1878:2184" placeholder="SELECT Membe..Members..." />
-            <marker date="1421150609722" expanded="true" signature="2911:3240" placeholder="SELECT Membe..Members..." />
-            <marker date="1421150609722" expanded="true" signature="4929:5264" placeholder="SELECT Membe..Members..." />
-            <marker date="1421150609722" expanded="true" signature="5654:6059" placeholder="SELECT Membe..Members..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1062">
-          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/authenticate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-122.666664" vertical-offset="0" max-vertical-offset="4320">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.52348995" vertical-offset="3078" max-vertical-offset="4878">
+          <caret line="197" column="36" selection-start-line="197" selection-start-column="36" selection-end-line="197" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/member-handler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="41.142857" vertical-offset="1728" max-vertical-offset="2340">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1467" max-vertical-offset="2376">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3566177" vertical-offset="0" max-vertical-offset="10584">
-          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        <state vertical-scroll-proportion="-12.214286" vertical-offset="0" max-vertical-offset="10908">
+          <caret line="19" column="42" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/unlock.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="378">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/run.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3489933" vertical-offset="0" max-vertical-offset="1746">
+          <caret line="67" column="38" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
           <folding />
         </state>
       </provider>
