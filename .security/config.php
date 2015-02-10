@@ -24,3 +24,8 @@ define('MAILGUN_DISPATCHER', 'HHC Email System <some@email.org>');
 
 define('ENC_FIELDS', serialize(array("Password", "CreditCardNumber", "CCNumber", "TaxId")));
 define('ENCRYPTION_KEY', 'f359773ccc036399fb427bc537ecb26');
+
+define('DB_API_HOST', '127.0.0.1');
+define('DB_API_NAME', 'api');
+define('DB_API_USER', 'root');
+define('DB_API_PASSWORD', '1111');
