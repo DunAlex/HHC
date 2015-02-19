@@ -29,3 +29,12 @@ define('DB_API_HOST', '127.0.0.1');
 define('DB_API_NAME', 'api');
 define('DB_API_USER', 'root');
 define('DB_API_PASSWORD', '1111');
+
+define('PAYONEER_REDIRECT_URL', 'https://www.membertek.com/mommysclub/bfc/bfc-payoneer-complete.php');
+define('PAYONEER_URL', "https://api.payoneer.com/payouts/HttpAPI/API.aspx");
+define('PAYONEER_METHOD_GETTOKEN', 'GetToken');
+define('PAYONEER_METHOD_GETPAYEEDETAILS', 'GetPayeeDetails');
+
+define('PAYONEER_USERNAME', 'MomlubGG5');
+define('PAYONEER_PASSWORD', '12lghjf54DD');
+define('PAYONEER_PARTNERID', '100035850');
