@@ -7,3 +7,4 @@ membertek-api
 .vagrant
 .directory
 .idea/*
+tmp/
