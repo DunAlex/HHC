@@ -40,7 +40,7 @@ define('PAYONEER_PASSWORD', '12lghjf54DD');
 define('PAYONEER_PARTNERID', '100035850');
 
 /* Healthy Home Database Access. */
-define('DB_HHC_HOST',           'ip_address'); /* Server IPV4. */
-define('DB_HHC_NAME',           'database_name'); /* The database name. */
-define('DB_HHC_USER',           'username'); /* The username used for logging into the database. */
-define('DB_HHC_PASSWORD',       'password'); /* The password used for logging into the database */
+define('DB_HHC_HOST', 'localhost'); /* Server IPV4. */
+define('DB_HHC_NAME', 'healthyhome'); /* The database name. */
+define('DB_HHC_USER', 'root'); /* The username used for logging into the database. */
+define('DB_HHC_PASSWORD', '1111'); /* The password used for logging into the database */
