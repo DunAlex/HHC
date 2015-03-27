@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc5e5b2e-ab26-4574-bc6e-4b88ea37b060" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/prorep.php" afterPath="$PROJECT_DIR$/api/application/controllers/prorep.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/proreps/replicate.html" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/proreps/replicate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/replicate.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/replicate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/application/controllers/api_order_utilities.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/application/controllers/api_order_taxation.php" afterPath="$PROJECT_DIR$/api/application/controllers/api_order_taxation.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/modal_form.html" afterPath="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/modal_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="d41c6e17-6400-4d89-92ce-24c85eace4e6" name="local_only" comment="" />
@@ -31,11 +37,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="member_edit.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="member_edit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2106" max-vertical-offset="6768">
-              <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+            <state vertical-scroll-proportion="-0.012704174" vertical-offset="3031" max-vertical-offset="7182">
+              <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal_form.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/modal_form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1404">
+              <caret line="17" column="118" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/helpers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.router.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="9666" max-vertical-offset="22338">
+              <caret line="548" column="48" selection-start-line="548" selection-start-column="48" selection-end-line="548" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -44,74 +80,108 @@
       <file leaf-file-name="prorep.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/application/controllers/prorep.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.981818" vertical-offset="31910" max-vertical-offset="37062">
-              <caret line="1788" column="66" selection-start-line="1788" selection-start-column="66" selection-end-line="1788" selection-end-column="66" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="14865" max-vertical-offset="37062">
+              <caret line="835" column="30" selection-start-line="835" selection-start-column="20" selection-end-line="835" selection-end-column="30" />
               <folding>
-                <marker date="1427471415583" expanded="true" signature="599:691" placeholder="SELECT PV, G..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="1319:1544" placeholder="SELECT PV, T..Members..." />
-                <marker date="1427471415583" expanded="true" signature="4071:4186" placeholder="SELECT SubTy..Members..." />
-                <marker date="1427471415583" expanded="true" signature="4479:4591" placeholder="SELECT NextD..Autoshipments..." />
-                <marker date="1427471415583" expanded="true" signature="4724:4784" placeholder="SELECT credi..credits..." />
-                <marker date="1427471415583" expanded="true" signature="4988:5052" placeholder="SELECT Rank,..Members..." />
-                <marker date="1427471415583" expanded="true" signature="5190:5282" placeholder="SELECT PV, G..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="5964:6063" placeholder="SELECT `PV`,..." />
-                <marker date="1427471415583" expanded="true" signature="8875:8894" placeholder="SELECT * FRO..Ranks..." />
-                <marker date="1427471415583" expanded="true" signature="10384:10476" placeholder="SELECT PV, G..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="11110:11335" placeholder="SELECT PV, T..Members..." />
-                <marker date="1427471415583" expanded="true" signature="13976:14091" placeholder="SELECT SubTy..Members..." />
-                <marker date="1427471415583" expanded="true" signature="14398:14510" placeholder="SELECT NextD..Autoshipments..." />
-                <marker date="1427471415583" expanded="true" signature="14642:14702" placeholder="SELECT credi..credits..." />
-                <marker date="1427471415583" expanded="true" signature="14905:14969" placeholder="SELECT Rank,..Members..." />
-                <marker date="1427471415583" expanded="true" signature="15106:15198" placeholder="SELECT PV, G..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="15881:15961" placeholder="SELECT PV FR..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="16613:16699" placeholder="SELECT Order..Orders..." />
-                <marker date="1427471415583" expanded="true" signature="23128:23226" placeholder="SELECT * FRO..StaticHash_Report..." />
-                <marker date="1427471415583" expanded="true" signature="24139:24259" placeholder="SELECT Membe..Members..." />
-                <marker date="1427471415583" expanded="true" signature="25402:25454" placeholder="SELECT * FRO..Lists..." />
-                <marker date="1427471415583" expanded="true" signature="32517:32569" placeholder="SELECT * FRO..Lists..." />
-                <marker date="1427471415583" expanded="true" signature="33924:34083" placeholder="SELECT Produ..OrderItems..." />
-                <marker date="1427471415583" expanded="true" signature="34806:34883" placeholder="SELECT Produ..Products..." />
-                <marker date="1427471415583" expanded="true" signature="37202:37254" placeholder="SELECT * FRO..Lists..." />
-                <marker date="1427471415583" expanded="true" signature="37738:37836" placeholder="SELECT * FRO..Products..." />
-                <marker date="1427471415583" expanded="true" signature="39224:39363" placeholder="SELECT Produ..Products..." />
-                <marker date="1427471415583" expanded="true" signature="42239:42356" placeholder="SELECT First..Members..." />
-                <marker date="1427471415583" expanded="true" signature="42608:42855" placeholder="SELECT Membe..Members..." />
-                <marker date="1427471415583" expanded="true" signature="44081:44121" placeholder="SELECT Membe..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="44285:44350" placeholder="SELECT Membe..Autoshipments..." />
-                <marker date="1427471415583" expanded="true" signature="44754:45025" placeholder="SELECT First..Members..." />
-                <marker date="1427471415583" expanded="true" signature="46014:46083" placeholder="SELECT Membe..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="46361:46430" placeholder="SELECT Membe..Volume..." />
-                <marker date="1427471415583" expanded="true" signature="46697:46821" placeholder="SELECT Membe..Members..." />
-                <marker date="1427471415583" expanded="true" signature="47845:47966" placeholder="SELECT Membe..Members..." />
-                <marker date="1427471415583" expanded="true" signature="48216:48244" placeholder="SELECT SKU, ..Products..." />
-                <marker date="1427471415583" expanded="true" signature="48485:48795" placeholder="SELECT NextD..AutoshipmentItems..." />
-                <marker date="1427471415583" expanded="true" signature="52167:52238" placeholder="SELECT Membe..Members..." />
-                <marker date="1427471415583" expanded="true" signature="55046:55239" placeholder="SELECT Order..Orders..." />
-                <marker date="1427471415583" expanded="true" signature="55767:55856" placeholder="SELECT * FRO..CommissionItems..." />
-                <marker date="1427471415583" expanded="true" signature="57784:57888" placeholder="SELECT * FRO..CommissionItems..." />
-                <marker date="1427471415583" expanded="true" signature="59011:59118" placeholder="SELECT Produ..Products..." />
-                <marker date="1427471415583" expanded="true" signature="59825:59877" placeholder="SELECT * FRO..Lists..." />
-                <marker date="1427471415583" expanded="true" signature="60137:60446" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="599:691" placeholder="SELECT PV, G..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="1319:1544" placeholder="SELECT PV, T..Members..." />
+                <marker date="1427487475969" expanded="true" signature="4071:4186" placeholder="SELECT SubTy..Members..." />
+                <marker date="1427487475969" expanded="true" signature="4479:4591" placeholder="SELECT NextD..Autoshipments..." />
+                <marker date="1427487475969" expanded="true" signature="4724:4784" placeholder="SELECT credi..credits..." />
+                <marker date="1427487475969" expanded="true" signature="4988:5052" placeholder="SELECT Rank,..Members..." />
+                <marker date="1427487475969" expanded="true" signature="5190:5282" placeholder="SELECT PV, G..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="5964:6063" placeholder="SELECT `PV`,..." />
+                <marker date="1427487475969" expanded="true" signature="8875:8894" placeholder="SELECT * FRO..Ranks..." />
+                <marker date="1427487475969" expanded="true" signature="10384:10476" placeholder="SELECT PV, G..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="11110:11335" placeholder="SELECT PV, T..Members..." />
+                <marker date="1427487475969" expanded="true" signature="13976:14091" placeholder="SELECT SubTy..Members..." />
+                <marker date="1427487475969" expanded="true" signature="14398:14510" placeholder="SELECT NextD..Autoshipments..." />
+                <marker date="1427487475969" expanded="true" signature="14642:14702" placeholder="SELECT credi..credits..." />
+                <marker date="1427487475969" expanded="true" signature="14905:14969" placeholder="SELECT Rank,..Members..." />
+                <marker date="1427487475969" expanded="true" signature="15106:15198" placeholder="SELECT PV, G..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="15881:15961" placeholder="SELECT PV FR..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="16613:16699" placeholder="SELECT Order..Orders..." />
+                <marker date="1427487475969" expanded="true" signature="23128:23226" placeholder="SELECT * FRO..StaticHash_Report..." />
+                <marker date="1427487475969" expanded="true" signature="24139:24259" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="25402:25454" placeholder="SELECT * FRO..Lists..." />
+                <marker date="1427487475969" expanded="true" signature="32517:32569" placeholder="SELECT * FRO..Lists..." />
+                <marker date="1427487475969" expanded="true" signature="33924:34083" placeholder="SELECT Produ..OrderItems..." />
+                <marker date="1427487475969" expanded="true" signature="34806:34883" placeholder="SELECT Produ..Products..." />
+                <marker date="1427487475969" expanded="true" signature="37202:37254" placeholder="SELECT * FRO..Lists..." />
+                <marker date="1427487475969" expanded="true" signature="37738:37836" placeholder="SELECT * FRO..Products..." />
+                <marker date="1427487475969" expanded="true" signature="39224:39363" placeholder="SELECT Produ..Products..." />
+                <marker date="1427487475969" expanded="true" signature="42239:42356" placeholder="SELECT First..Members..." />
+                <marker date="1427487475969" expanded="true" signature="42608:42855" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="44081:44121" placeholder="SELECT Membe..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="44285:44350" placeholder="SELECT Membe..Autoshipments..." />
+                <marker date="1427487475969" expanded="true" signature="44754:45025" placeholder="SELECT First..Members..." />
+                <marker date="1427487475969" expanded="true" signature="46014:46083" placeholder="SELECT Membe..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="46361:46430" placeholder="SELECT Membe..Volume..." />
+                <marker date="1427487475969" expanded="true" signature="46697:46821" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="47845:47966" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="48216:48244" placeholder="SELECT SKU, ..Products..." />
+                <marker date="1427487475969" expanded="true" signature="48485:48795" placeholder="SELECT NextD..AutoshipmentItems..." />
+                <marker date="1427487475969" expanded="true" signature="52167:52238" placeholder="SELECT Membe..Members..." />
+                <marker date="1427487475969" expanded="true" signature="55046:55239" placeholder="SELECT Order..Orders..." />
+                <marker date="1427487475969" expanded="true" signature="55767:55856" placeholder="SELECT * FRO..CommissionItems..." />
+                <marker date="1427487475969" expanded="true" signature="57784:57888" placeholder="SELECT * FRO..CommissionItems..." />
+                <marker date="1427487475969" expanded="true" signature="59011:59118" placeholder="SELECT Produ..Products..." />
+                <marker date="1427487475969" expanded="true" signature="59825:59877" placeholder="SELECT * FRO..Lists..." />
+                <marker date="1427487475969" expanded="true" signature="60137:60446" placeholder="SELECT Membe..Members..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replicate.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/replicate.js">
+      <file leaf-file-name="member.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/controllers/member.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1980">
-              <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+            <state vertical-scroll-proportion="-11.37037" vertical-offset="89" max-vertical-offset="792">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="replicate.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/proreps/replicate.html">
+      <file leaf-file-name="api_order_taxation.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/controllers/api_order_taxation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7855787" vertical-offset="162" max-vertical-offset="1116">
-              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+            <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="414">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api_order_utilities.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/application/controllers/api_order_utilities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="360">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Order_Utilities.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hhccore/Order/Order_Utilities.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7777778" vertical-offset="129" max-vertical-offset="666">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <marker date="1427487476069" expanded="true" signature="256:314" placeholder="SELECT * FRO..countries..." />
+                <marker date="1427487476069" expanded="true" signature="791:814" placeholder="SELECT * FRO..countries..." />
+                <marker date="1427487476069" expanded="true" signature="907:929" placeholder="SELECT * FRO..taxation..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="handlers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3420">
+              <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -142,8 +212,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/header.html" />
-        <option value="$PROJECT_DIR$/membertek-api/database.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/page_lockme.html" />
         <option value="$PROJECT_DIR$/hhccore/User/User_Handler.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/main.js" />
@@ -172,15 +240,12 @@
         <option value="$PROJECT_DIR$/hhccore/History/History_Handler.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-web/adm/shared/database.php" />
         <option value="$PROJECT_DIR$/.security/config.php" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js" />
         <option value="$PROJECT_DIR$/hhccore/Order/Order_Taxation.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/administrators/member_form.html" />
         <option value="$PROJECT_DIR$/hhccore/HH/HH_Lib.php" />
         <option value="$PROJECT_DIR$/api/application/controllers/order.php" />
-        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js" />
         <option value="$PROJECT_DIR$/hhccore/Order/Order_Shipping.php" />
         <option value="$PROJECT_DIR$/hhccore/Order/Order_Object.php" />
-        <option value="$PROJECT_DIR$/api/application/controllers/api_order_taxation.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/menu.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/l10n/en.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/app.html" />
@@ -193,6 +258,11 @@
         <option value="$PROJECT_DIR$/api/application/controllers/prorep.php" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/replicate.js" />
         <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/proreps/replicate.html" />
+        <option value="$PROJECT_DIR$/api/application/controllers/api_order_taxation.php" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js" />
+        <option value="$PROJECT_DIR$/api/application/controllers/api_order_utilities.php" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/modal_form.html" />
+        <option value="$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js" />
       </list>
     </option>
   </component>
@@ -225,10 +295,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="-3" />
-    <option name="width" value="1924" />
-    <option name="height" value="1052" />
+    <option name="y" value="31" />
+    <option name="width" value="1920" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -560,7 +629,81 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="proreps" />
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tpl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="administrators" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HealthyHomeCompany" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HHC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="healthyhomecompany-ee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myaccount" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,28 +736,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HealthyHomeCompany" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HHC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1106,120 +1227,6 @@
       </list>
     </option>
   </component>
-  <component name="RestoreUpdateTree">
-    <UpdateInfo date="Moments ago" ActionInfo="_Update">
-      <UpdatedFiles>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated from server" />
-          <option name="myStatusName" value="Changed on server" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CHANGED_ON_SERVER" />
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Updated" />
-            <option name="myStatusName" value="Changed" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="UPDATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/api/application/controllers/prorep.php</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Created" />
-            <option name="myStatusName" value="Created" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="CREATED" />
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/api/application/third_party/datetime.php</PATH>
-            <PATH vcs="Git" revision="">$PROJECT_DIR$/api/application/third_party/lib.php</PATH>
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Deleted" />
-            <option name="myStatusName" value="Deleted" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="true" />
-            <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          </FILE-GROUP>
-          <FILE-GROUP>
-            <option name="myUpdateName" value="Restored" />
-            <option name="myStatusName" value="Will be restored" />
-            <option name="mySupportsDeletion" value="false" />
-            <option name="myCanBeAbsent" value="false" />
-            <option name="myId" value="RESTORED" />
-          </FILE-GROUP>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Modified" />
-          <option name="myStatusName" value="Modified" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MODIFIED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Skipped" />
-          <option name="myStatusName" value="Skipped" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SKIPPED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with conflicts" />
-          <option name="myStatusName" value="Will be merged with conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_CONFLICTS" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with tree conflicts" />
-          <option name="myStatusName" value="Merged with tree conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged with property conflicts" />
-          <option name="myStatusName" value="Will be merged with property conflicts" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Merged" />
-          <option name="myStatusName" value="Will be merged" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="MERGED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Not in repository" />
-          <option name="myStatusName" value="Not in repository" />
-          <option name="mySupportsDeletion" value="true" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UNKNOWN" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally added" />
-          <option name="myStatusName" value="Locally added" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_ADDED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Locally removed" />
-          <option name="myStatusName" value="Locally removed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="LOCALLY_REMOVED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Switched" />
-          <option name="myStatusName" value="Switched" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="SWITCHED" />
-        </FILE-GROUP>
-      </UpdatedFiles>
-    </UpdateInfo>
-  </component>
   <component name="RunManager" selected="PHP Remote Debug.HHC">
     <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
       <method />
@@ -1587,24 +1594,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="-3" width="1924" height="1052" extended-state="6" />
+    <frame x="0" y="31" width="1920" height="1049" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.633833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32834226" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.633833" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32334048" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25320512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25294748" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4561028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1970181" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1988273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3672377" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36655948" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399137" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1829,8 +1836,18 @@
           <line>351</line>
           <option name="timeStamp" value="535" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/application/controllers/prorep.php</url>
+          <line>1959</line>
+          <option name="timeStamp" value="567" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/api/application/controllers/prorep.php</url>
+          <line>837</line>
+          <option name="timeStamp" value="568" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="566" />
+      <option name="time" value="572" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -1842,38 +1859,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30125523" vertical-offset="0" max-vertical-offset="478">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vagrantfile">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3364486" vertical-offset="0" max-vertical-offset="2322">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/form_elements.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.927273" vertical-offset="2157" max-vertical-offset="14148">
-          <caret line="196" column="51" selection-start-line="196" selection-start-column="51" selection-end-line="196" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hhccore/Profile/Profile_Member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333" vertical-offset="0" max-vertical-offset="23202">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hhccore/Libraries/Respect_Validation/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3894967" vertical-offset="5150" max-vertical-offset="7398">
@@ -1982,32 +1967,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hhccore/HH/HH_ApiRest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26865673" vertical-offset="972" max-vertical-offset="1980">
-          <caret line="62" column="26" selection-start-line="62" selection-start-column="26" selection-end-line="62" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/member.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44745764" vertical-offset="0" max-vertical-offset="885">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30646992" vertical-offset="1296" max-vertical-offset="2754">
           <caret line="87" column="35" selection-start-line="87" selection-start-column="35" selection-end-line="87" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1278" max-vertical-offset="3240">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2018,19 +1981,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hhccore/HH/HH_Exception.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7069597" vertical-offset="496" max-vertical-offset="1044">
-          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/menu.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1404" max-vertical-offset="5562">
           <caret line="99" column="52" selection-start-line="99" selection-start-column="52" selection-end-line="99" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2038,7 +1992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6513158" vertical-offset="252" max-vertical-offset="1944">
           <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2046,12 +1999,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.185185" vertical-offset="2695" max-vertical-offset="8946">
           <caret line="159" column="0" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
-          <folding>
-            <marker date="1427276824615" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
-            <marker date="1427276824615" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Members..." />
-            <marker date="1427276824615" expanded="true" signature="-1:-1" placeholder="SELECT Membe..Volume..." />
-            <marker date="1427276824615" expanded="true" signature="-1:-1" placeholder="SELECT RankI..Ranks..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2059,15 +2007,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1172414" vertical-offset="1080" max-vertical-offset="1674">
           <caret line="87" column="34" selection-start-line="87" selection-start-column="34" selection-end-line="87" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/api_order_taxation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19693655" vertical-offset="0" max-vertical-offset="457">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2091,7 +2030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="484">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2099,7 +2037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="1350">
           <caret line="53" column="56" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2115,7 +2052,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2123,7 +2059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.333334" vertical-offset="0" max-vertical-offset="1188">
           <caret line="32" column="89" selection-start-line="32" selection-start-column="89" selection-end-line="32" selection-end-column="89" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2137,7 +2072,6 @@
             <element signature="n#ParentSendEmail#0;n#HH_Lib#0;n#!!top" expanded="false" />
             <element signature="n#MomBloggerSendEmail#0;n#HH_Lib#0;n#!!top" expanded="false" />
             <element signature="n#HHSendEmail#0;n#HH_Lib#0;n#!!top" expanded="false" />
-            <marker date="1427378067014" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..Products..." />
           </folding>
         </state>
       </provider>
@@ -2154,7 +2088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.24827586" vertical-offset="0" max-vertical-offset="870">
           <caret line="12" column="298" selection-start-line="12" selection-start-column="298" selection-end-line="12" selection-end-column="298" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2162,12 +2095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.28390804" vertical-offset="5279" max-vertical-offset="12258">
           <caret line="307" column="31" selection-start-line="307" selection-start-column="31" selection-end-line="307" selection-end-column="31" />
-          <folding>
-            <marker date="1427446498910" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..OrderItems..." />
-            <marker date="1427446498910" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-            <marker date="1427446498910" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..." />
-            <marker date="1427446498910" expanded="true" signature="-1:-1" placeholder="SELECT SUM(A..Payments..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2175,21 +2103,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5911665" vertical-offset="108" max-vertical-offset="1314">
           <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-          <folding>
-            <marker date="1427446498910" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..shipping..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hhccore/Order/Order_Utilities.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.040770102" vertical-offset="0" max-vertical-offset="883">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
-          <folding>
-            <marker date="1427463722827" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..countries..." />
-            <marker date="1427463722827" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..countries..." />
-            <marker date="1427463722827" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..taxation..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2197,10 +2111,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3272933" vertical-offset="2789" max-vertical-offset="3780">
           <caret line="177" column="35" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
-          <folding>
-            <marker date="1427299256444" expanded="true" signature="-1:-1" placeholder="SELECT ${$in..." />
-            <marker date="1427299256444" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2216,12 +2127,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7134768" vertical-offset="6156" max-vertical-offset="7452">
           <caret line="377" column="31" selection-start-line="377" selection-start-column="31" selection-end-line="377" selection-end-column="31" />
-          <folding>
-            <marker date="1427369526665" expanded="true" signature="-1:-1" placeholder="SELECT ${$fi..." />
-            <marker date="1427369526665" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-            <marker date="1427369526665" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1427369526665" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2229,75 +2134,28 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.3057758" vertical-offset="305" max-vertical-offset="3078">
           <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/HH/HH_ApiRest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="73" max-vertical-offset="1980">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js">
+    <entry file="file://$PROJECT_DIR$/hhccore/HH/HH_Exception.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2106" max-vertical-offset="6768">
-          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
+        <state vertical-scroll-proportion="-14.407408" vertical-offset="493" max-vertical-offset="1044">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/application/controllers/prorep.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.981818" vertical-offset="31910" max-vertical-offset="37062">
-          <caret line="1788" column="66" selection-start-line="1788" selection-start-column="66" selection-end-line="1788" selection-end-column="66" />
-          <folding>
-            <marker date="1427471415583" expanded="true" signature="599:691" placeholder="SELECT PV, G..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="1319:1544" placeholder="SELECT PV, T..Members..." />
-            <marker date="1427471415583" expanded="true" signature="4071:4186" placeholder="SELECT SubTy..Members..." />
-            <marker date="1427471415583" expanded="true" signature="4479:4591" placeholder="SELECT NextD..Autoshipments..." />
-            <marker date="1427471415583" expanded="true" signature="4724:4784" placeholder="SELECT credi..credits..." />
-            <marker date="1427471415583" expanded="true" signature="4988:5052" placeholder="SELECT Rank,..Members..." />
-            <marker date="1427471415583" expanded="true" signature="5190:5282" placeholder="SELECT PV, G..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="5964:6063" placeholder="SELECT `PV`,..." />
-            <marker date="1427471415583" expanded="true" signature="8875:8894" placeholder="SELECT * FRO..Ranks..." />
-            <marker date="1427471415583" expanded="true" signature="10384:10476" placeholder="SELECT PV, G..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="11110:11335" placeholder="SELECT PV, T..Members..." />
-            <marker date="1427471415583" expanded="true" signature="13976:14091" placeholder="SELECT SubTy..Members..." />
-            <marker date="1427471415583" expanded="true" signature="14398:14510" placeholder="SELECT NextD..Autoshipments..." />
-            <marker date="1427471415583" expanded="true" signature="14642:14702" placeholder="SELECT credi..credits..." />
-            <marker date="1427471415583" expanded="true" signature="14905:14969" placeholder="SELECT Rank,..Members..." />
-            <marker date="1427471415583" expanded="true" signature="15106:15198" placeholder="SELECT PV, G..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="15881:15961" placeholder="SELECT PV FR..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="16613:16699" placeholder="SELECT Order..Orders..." />
-            <marker date="1427471415583" expanded="true" signature="23128:23226" placeholder="SELECT * FRO..StaticHash_Report..." />
-            <marker date="1427471415583" expanded="true" signature="24139:24259" placeholder="SELECT Membe..Members..." />
-            <marker date="1427471415583" expanded="true" signature="25402:25454" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1427471415583" expanded="true" signature="32517:32569" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1427471415583" expanded="true" signature="33924:34083" placeholder="SELECT Produ..OrderItems..." />
-            <marker date="1427471415583" expanded="true" signature="34806:34883" placeholder="SELECT Produ..Products..." />
-            <marker date="1427471415583" expanded="true" signature="37202:37254" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1427471415583" expanded="true" signature="37738:37836" placeholder="SELECT * FRO..Products..." />
-            <marker date="1427471415583" expanded="true" signature="39224:39363" placeholder="SELECT Produ..Products..." />
-            <marker date="1427471415583" expanded="true" signature="42239:42356" placeholder="SELECT First..Members..." />
-            <marker date="1427471415583" expanded="true" signature="42608:42855" placeholder="SELECT Membe..Members..." />
-            <marker date="1427471415583" expanded="true" signature="44081:44121" placeholder="SELECT Membe..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="44285:44350" placeholder="SELECT Membe..Autoshipments..." />
-            <marker date="1427471415583" expanded="true" signature="44754:45025" placeholder="SELECT First..Members..." />
-            <marker date="1427471415583" expanded="true" signature="46014:46083" placeholder="SELECT Membe..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="46361:46430" placeholder="SELECT Membe..Volume..." />
-            <marker date="1427471415583" expanded="true" signature="46697:46821" placeholder="SELECT Membe..Members..." />
-            <marker date="1427471415583" expanded="true" signature="47845:47966" placeholder="SELECT Membe..Members..." />
-            <marker date="1427471415583" expanded="true" signature="48216:48244" placeholder="SELECT SKU, ..Products..." />
-            <marker date="1427471415583" expanded="true" signature="48485:48795" placeholder="SELECT NextD..AutoshipmentItems..." />
-            <marker date="1427471415583" expanded="true" signature="52167:52238" placeholder="SELECT Membe..Members..." />
-            <marker date="1427471415583" expanded="true" signature="55046:55239" placeholder="SELECT Order..Orders..." />
-            <marker date="1427471415583" expanded="true" signature="55767:55856" placeholder="SELECT * FRO..CommissionItems..." />
-            <marker date="1427471415583" expanded="true" signature="57784:57888" placeholder="SELECT * FRO..CommissionItems..." />
-            <marker date="1427471415583" expanded="true" signature="59011:59118" placeholder="SELECT Produ..Products..." />
-            <marker date="1427471415583" expanded="true" signature="59825:59877" placeholder="SELECT * FRO..Lists..." />
-            <marker date="1427471415583" expanded="true" signature="60137:60446" placeholder="SELECT Membe..Members..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/replicate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="1980">
+        <state vertical-scroll-proportion="0.5106383" vertical-offset="252" max-vertical-offset="1980">
           <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
           <folding />
         </state>
@@ -2305,8 +2163,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/proreps/replicate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7855787" vertical-offset="162" max-vertical-offset="1116">
+        <state vertical-scroll-proportion="0.7900763" vertical-offset="162" max-vertical-offset="1116">
           <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/prorep.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0" vertical-offset="14865" max-vertical-offset="37062">
+          <caret line="835" column="30" selection-start-line="835" selection-start-column="20" selection-end-line="835" selection-end-column="30" />
+          <folding>
+            <marker date="1427487475969" expanded="true" signature="599:691" placeholder="SELECT PV, G..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="1319:1544" placeholder="SELECT PV, T..Members..." />
+            <marker date="1427487475969" expanded="true" signature="4071:4186" placeholder="SELECT SubTy..Members..." />
+            <marker date="1427487475969" expanded="true" signature="4479:4591" placeholder="SELECT NextD..Autoshipments..." />
+            <marker date="1427487475969" expanded="true" signature="4724:4784" placeholder="SELECT credi..credits..." />
+            <marker date="1427487475969" expanded="true" signature="4988:5052" placeholder="SELECT Rank,..Members..." />
+            <marker date="1427487475969" expanded="true" signature="5190:5282" placeholder="SELECT PV, G..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="5964:6063" placeholder="SELECT `PV`,..." />
+            <marker date="1427487475969" expanded="true" signature="8875:8894" placeholder="SELECT * FRO..Ranks..." />
+            <marker date="1427487475969" expanded="true" signature="10384:10476" placeholder="SELECT PV, G..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="11110:11335" placeholder="SELECT PV, T..Members..." />
+            <marker date="1427487475969" expanded="true" signature="13976:14091" placeholder="SELECT SubTy..Members..." />
+            <marker date="1427487475969" expanded="true" signature="14398:14510" placeholder="SELECT NextD..Autoshipments..." />
+            <marker date="1427487475969" expanded="true" signature="14642:14702" placeholder="SELECT credi..credits..." />
+            <marker date="1427487475969" expanded="true" signature="14905:14969" placeholder="SELECT Rank,..Members..." />
+            <marker date="1427487475969" expanded="true" signature="15106:15198" placeholder="SELECT PV, G..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="15881:15961" placeholder="SELECT PV FR..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="16613:16699" placeholder="SELECT Order..Orders..." />
+            <marker date="1427487475969" expanded="true" signature="23128:23226" placeholder="SELECT * FRO..StaticHash_Report..." />
+            <marker date="1427487475969" expanded="true" signature="24139:24259" placeholder="SELECT Membe..Members..." />
+            <marker date="1427487475969" expanded="true" signature="25402:25454" placeholder="SELECT * FRO..Lists..." />
+            <marker date="1427487475969" expanded="true" signature="32517:32569" placeholder="SELECT * FRO..Lists..." />
+            <marker date="1427487475969" expanded="true" signature="33924:34083" placeholder="SELECT Produ..OrderItems..." />
+            <marker date="1427487475969" expanded="true" signature="34806:34883" placeholder="SELECT Produ..Products..." />
+            <marker date="1427487475969" expanded="true" signature="37202:37254" placeholder="SELECT * FRO..Lists..." />
+            <marker date="1427487475969" expanded="true" signature="37738:37836" placeholder="SELECT * FRO..Products..." />
+            <marker date="1427487475969" expanded="true" signature="39224:39363" placeholder="SELECT Produ..Products..." />
+            <marker date="1427487475969" expanded="true" signature="42239:42356" placeholder="SELECT First..Members..." />
+            <marker date="1427487475969" expanded="true" signature="42608:42855" placeholder="SELECT Membe..Members..." />
+            <marker date="1427487475969" expanded="true" signature="44081:44121" placeholder="SELECT Membe..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="44285:44350" placeholder="SELECT Membe..Autoshipments..." />
+            <marker date="1427487475969" expanded="true" signature="44754:45025" placeholder="SELECT First..Members..." />
+            <marker date="1427487475969" expanded="true" signature="46014:46083" placeholder="SELECT Membe..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="46361:46430" placeholder="SELECT Membe..Volume..." />
+            <marker date="1427487475969" expanded="true" signature="46697:46821" placeholder="SELECT Membe..Members..." />
+            <marker date="1427487475969" expanded="true" signature="47845:47966" placeholder="SELECT Membe..Members..." />
+            <marker date="1427487475969" expanded="true" signature="48216:48244" placeholder="SELECT SKU, ..Products..." />
+            <marker date="1427487475969" expanded="true" signature="48485:48795" placeholder="SELECT NextD..AutoshipmentItems..." />
+            <marker date="1427487475969" expanded="true" signature="52167:52238" placeholder="SELECT Membe..Members..." />
+            <marker date="1427487475969" expanded="true" signature="55046:55239" placeholder="SELECT Order..Orders..." />
+            <marker date="1427487475969" expanded="true" signature="55767:55856" placeholder="SELECT * FRO..CommissionItems..." />
+            <marker date="1427487475969" expanded="true" signature="57784:57888" placeholder="SELECT * FRO..CommissionItems..." />
+            <marker date="1427487475969" expanded="true" signature="59011:59118" placeholder="SELECT Produ..Products..." />
+            <marker date="1427487475969" expanded="true" signature="59825:59877" placeholder="SELECT * FRO..Lists..." />
+            <marker date="1427487475969" expanded="true" signature="60137:60446" placeholder="SELECT Membe..Members..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.37037" vertical-offset="89" max-vertical-offset="792">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/config.router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9666" max-vertical-offset="22338">
+          <caret line="548" column="48" selection-start-line="548" selection-start-column="48" selection-end-line="548" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hhccore/Order/Order_Utilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7777778" vertical-offset="129" max-vertical-offset="666">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <marker date="1427487476069" expanded="true" signature="256:314" placeholder="SELECT * FRO..countries..." />
+            <marker date="1427487476069" expanded="true" signature="791:814" placeholder="SELECT * FRO..countries..." />
+            <marker date="1427487476069" expanded="true" signature="907:929" placeholder="SELECT * FRO..taxation..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/api_order_utilities.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="360">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/handlers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1116" max-vertical-offset="3420">
+          <caret line="83" column="7" selection-start-line="83" selection-start-column="7" selection-end-line="83" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/services/helpers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/application/controllers/api_order_taxation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0" vertical-offset="0" max-vertical-offset="414">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/tpl/blocks/modal_form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="1404">
+          <caret line="17" column="118" selection-start-line="17" selection-start-column="118" selection-end-line="17" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/healthyhomecompany-ee/myaccount/js/controllers/prorep/member_edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.012704174" vertical-offset="3031" max-vertical-offset="7182">
+          <caret line="168" column="42" selection-start-line="168" selection-start-column="42" selection-end-line="168" selection-end-column="42" />
           <folding />
         </state>
       </provider>
