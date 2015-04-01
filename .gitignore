@@ -4,7 +4,8 @@ healthyhomecompany-ee
 hhccore
 api
 membertek-api
-.vagrant/**
+.vagrant
 .directory/**
-.idea/**
-tmp/**
+.idea
+.security
+tmp
