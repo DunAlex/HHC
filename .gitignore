@@ -5,7 +5,7 @@ hhccore
 api
 membertek-api
 .vagrant
-.directory/**
+.directory
 .idea
 .security
 tmp
